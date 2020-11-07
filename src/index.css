@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -28,8 +34,6 @@ body {
   background: hsl(225, 6%, 10%);
   color: white;
   padding: .5rem .5rem .5rem 1rem;
-  border-top-right-radius: .5rem;
-  border-top-left-radius: .5rem;
   font-family: 'Poppins';
 }
 
@@ -39,10 +43,8 @@ body {
 
 .code-mirror-wrapper {
   flex-grow: 1;
-  border-bottom-left-radius: .5rem;
-  border-bottom-right-radius: .5rem;
   overflow: hidden;
-  font-size: 20px !important;
+  font-size: 18px !important;
 }
 
 footer {

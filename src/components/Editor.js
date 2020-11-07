@@ -26,14 +26,14 @@ export default function Editor(props) {
             <ControlledEditor
                 onBeforeChange={handleChange}
                 value={value}
-                autoScroll={true}
                 className="code-mirror-wrapper"
                 options={{
                     lineWrapping: true,
                     lint: true,
                     mode: language,
                     lineNumbers: true,
-                    theme: 'material'
+                    theme: 'material',
+                    cursorScrollMargin: 0
                 }}
             />
         </div>
